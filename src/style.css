@@ -34,7 +34,7 @@
   padding-left: 14px;
 }
 .todo {
-  width: 594px;
+  max-width: 594px;
   margin: 0 auto;
 }
 .btn {
@@ -155,4 +155,22 @@ button {
 
 .dluscroll {
   max-height: 200px;
+}
+
+@media (max-width: 590px) {
+  .input {
+    max-width: 200px;
+  }
+  .btn {
+    max-width: 125px;
+    font-size: 12px;
+  }
+  .deleteall {
+    max-width: 125px;
+    font-size: 12px;
+  }
+  .deletecom {
+    max-width: 200px;
+    font-size: 12px;
+  }
 }
