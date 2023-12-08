@@ -178,6 +178,9 @@ button {
   }
 }
 @media (max-width: 415px) {
+  .checkbox:checked ~ p {
+    font-size: 12px;
+  }
   .title {
     font-size: 34px;
   }
