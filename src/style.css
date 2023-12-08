@@ -158,6 +158,9 @@ button {
 }
 
 @media (max-width: 590px) {
+  .subtitle {
+    font-size: 14px;
+  }
   .input {
     max-width: 200px;
   }
@@ -172,5 +175,32 @@ button {
   .deletecom {
     max-width: 200px;
     font-size: 12px;
+  }
+}
+@media (max-width: 415px) {
+  .title {
+    font-size: 34px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .input {
+    max-width: 150px;
+    max-height: 30px;
+  }
+  .btn {
+    max-width: 105px;
+    font-size: 10px;
+    max-height: 30px;
+  }
+  .deleteall {
+    max-width: 105px;
+    font-size: 10px;
+    max-height: 30px;
+  }
+  .deletecom {
+    max-width: 175px;
+    font-size: 10px;
+    max-height: 30px;
   }
 }
